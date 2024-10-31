@@ -35,6 +35,8 @@ jobs:
 
       - name: Build with sbt
         env:
+          CI: "true" 
           SBT_COURSIER: "false"        # Disable Coursier
           SBT_NO_TELEMETRY: "true"     # Disable sbt telemetry
+          SBT_OPTS: "-Dsbt.log.noformat=true -Dsbt.coursier=false"
         run: sbt clean compile test
