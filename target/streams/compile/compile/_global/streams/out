@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\bijum\IdeaProjects\scalatest\src\main\scala\SimpleDataFrameExample.scala:9:17: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m      ("sagar", ),[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\bijum\IdeaProjects\scalatest\src\main\scala\SimpleDataFrameExample.scala:14:3: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  }[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
