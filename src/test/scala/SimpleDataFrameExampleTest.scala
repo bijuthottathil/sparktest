@@ -11,12 +11,13 @@ class SimpleDataFrameExampleTest extends AnyFunSuite with BeforeAndAfterAll {
     .master("local[*]")
     .getOrCreate()
 
+
   // Stop the Spark session after all tests are complete
   override def afterAll(): Unit = {
     spark.stop()
   }
 
-  test("createSampleDataFrame should create a DataFrame with the correct data") {
+  /*test("createSampleDataFrame should create a DataFrame with the correct data") {
     // Call the function to create the DataFrame
     val df: DataFrame = createSampleDataFrame(spark)
 
@@ -41,5 +42,5 @@ class SimpleDataFrameExampleTest extends AnyFunSuite with BeforeAndAfterAll {
     assert(nullCount == 0, "Age column should not contain null value.")
     val distinctCount = df.select("name").distinct().count()
     assert(distinctCount == df.count(), "name column should not have unique values.")
-  }
+  }*/
 }

@@ -1,29 +1,14 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PersonTest, org.scalatest.tools.Framework$$anon$1@52d65ecd, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CalculatorSpec, org.scalatest.tools.Framework$$anon$1@52d65ecd, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SimpleDataFrameExampleTest, org.scalatest.tools.Framework$$anon$1@52d65ecd, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(casepersonSpec, org.scalatest.tools.Framework$$anon$1@52d65ecd, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mPersonTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Person.greet should return a greeting message with the person's name[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Person.greet should handle empty names[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCalculatorSpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mThe add method[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return the sum of two numbers[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mThe multiply method[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return the product of two numbers[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mcasepersonSpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mA Person[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have a valid name[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have a valid age[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have a valid email[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SimpleDataFrameExampleTest, org.scalatest.tools.Framework$$anon$1@32d89ae3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(windowsfunctionstest.WindowAggregatorTest, org.scalatest.tools.Framework$$anon$1@32d89ae3, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSimpleDataFrameExampleTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- createSampleDataFrame should create a DataFrame with the correct data[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 11 seconds, 452 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWindowAggregatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rankSalesByAmount should rank sales by amount within each customer group[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- calculateRunningTotal should calculate running total of sales for each customer[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 10 seconds, 910 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	casepersonSpec[0m
-[0m[[0m[0mdebug[0m] [0m[0m	CalculatorSpec[0m
-[0m[[0m[0mdebug[0m] [0m[0m	PersonTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SimpleDataFrameExampleTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	windowsfunctionstest.WindowAggregatorTest[0m

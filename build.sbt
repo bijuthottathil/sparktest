@@ -8,8 +8,6 @@ lazy val root = (project in file("."))
     name := "scalatest"
   )
 version := "0.1"
-
-
 // Define Spark version as a variable to keep it consistent
 val sparkVersion = "3.4.1"
 
@@ -19,8 +17,15 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-sql" % sparkVersion
 )
 
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % "3.4.1" % Test,
+  "org.apache.spark" %% "spark-sql" % "3.4.1" % Test,
+  "org.scalatest" %% "scalatest" % "3.2.17" % Test
+)
+
 // Add ScalaTest if you need it for testing
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % Test
 
 dependencyOverrides += "org.apache.spark" %% "spark-core" % sparkVersion
 dependencyOverrides += "org.apache.spark" %% "spark-sql" % sparkVersion
+
