@@ -1,6 +1,4 @@
 #Successful Tests
-#Thu Oct 31 16:51:33 CDT 2024
-PersonTest=1730411481929
-SimpleDataFrameExampleTest=1730411493037
-casepersonSpec=1730411481929
-CalculatorSpec=1730411481929
+#Fri Nov 01 10:22:07 CDT 2024
+SimpleDataFrameExampleTest=1730474516609
+windowsfunctionstest.WindowAggregatorTest=1730474527300
