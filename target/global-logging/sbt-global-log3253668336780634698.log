@@ -1,0 +1,50 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.3 (Oracle Corporation Java 1.8.0_251)
+[debug] Load.defaultLoad until apply took 262.4085ms
+[debug]           Load.loadUnit: plugins took 165.3995ms
+[debug]           Load.loadUnit: defsScala took 0.5096ms
+[debug] [Loading] Scanning directory C:\Users\bijum\IdeaProjects\scalatest\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\bijum\IdeaProjects\scalatest\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 37.7361 ms
+[debug]               Load.resolveProject(scalatest-build) took 89.4455ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scalatest-build, base: C:\Users\bijum\IdeaProjects\scalatest\project, plugins: List(<none>))) took 177.4454ms
+[debug] [Loading] Done in C:\Users\bijum\IdeaProjects\scalatest\project, returning: (scalatest-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 217.0267ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.5946ms
+[debug]         Load.loadUnit(file:/C:/Users/bijum/IdeaProjects/scalatest/project/, ...) took 393.2668ms
+[debug]       Load.apply: load took 963.7144ms
+[debug]       Load.apply: resolveProjects took 18.0846ms
+[debug]       Load.apply: finalTransforms took 143.2635ms
+[debug]       Load.apply: config.delegates took 12.8909ms
+[debug]       Load.apply: Def.make(settings)... took 695.837ms
+[debug]       Load.apply: structureIndex took 185.5673ms
+[debug]       Load.apply: mkStreams took 3.8936ms
+[info] loading project definition from C:\Users\bijum\IdeaProjects\scalatest\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3405.9707ms
+[debug]     Load.loadUnit: defsScala took 0.0035ms
+[debug] [Loading] Scanning directory C:\Users\bijum\IdeaProjects\scalatest
+[debug]       Load.loadUnit: mkEval took 8.7007ms
