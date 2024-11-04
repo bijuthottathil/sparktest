@@ -29,3 +29,4 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % Test
 dependencyOverrides += "org.apache.spark" %% "spark-core" % sparkVersion
 dependencyOverrides += "org.apache.spark" %% "spark-sql" % sparkVersion
 
+libraryDependencies += "org.postgresql" % "postgresql" % "42.2.23" // Or use the latest version
