@@ -7,7 +7,7 @@ trait DatabaseUtils {
     val server = "mydbserverforscala.database.windows.net:1433"
     val database = "mydbforscala"
     val username = "sqladmin@mydbserverforscala"
-    val password = "SmithaMathew#1526"
+    val password = "TBD"
     s"jdbc:sqlserver://$server;database=$database;user=$username;password=$password;;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30"
   }
 
