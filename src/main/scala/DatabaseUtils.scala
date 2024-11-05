@@ -12,7 +12,7 @@ trait DatabaseUtils {
   }
 
   def writeToAzureSQL(df: DataFrame, tableName: String): Unit = {
-    val password = "SmithaMathew#1526"
+    val password = "TBD"
      //df.write
      // .format("jdbc")
     //  .option("url", getJdbcUrl)
